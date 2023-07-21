@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    justify-content: space-around;
+    background-color: lightblue;
+    margin: 5% auto;
+    
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inputs input,button{
+    text-align: center;
+    font-weight: bold;
+}
+
+.inputs label{
+    font-weight: bold;
+}
+.content{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+.table{
+    background-color: lightblue;
+    margin: 5% auto;
+}
